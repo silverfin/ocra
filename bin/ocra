@@ -186,7 +186,7 @@ module Ocra
     a.sort.inject([]) { |r, e| r.last == e ? r : r << e }
   end
 
-  VERSION = "1.3.10"
+  VERSION = "1.3.12"
 
   IGNORE_MODULE_NAMES = /\/(enumerator.so|rational.so|complex.so|fiber.so|thread.rb|ruby2_keywords.rb)$/
 

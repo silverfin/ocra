@@ -448,6 +448,17 @@ logs any errors to a file:
       end
     end
 
+## RELEASING:
+
+```
+gem install hoe
+gem install minitest
+ridk enable
+# change version in lib/ocra.rb
+# change version in bin/ocra.rb
+rake package
+```
+
 ## CREDITS:
 
 Thanks for Igor Pavlov for the LZMA compressor and decompressor. The
